@@ -4,10 +4,10 @@
                 "src/test"]
 
  :dependencies [[reagent "1.1.1"]]
-
+ :deps true
  :dev-http     {8080 "public"}
 
  :builds       {:app {:asset-path "/js"
                       :output-dir "public/js"
                       :target  :browser
-                      :modules {:main {:init-fn shadow-reagent.app/init}}}}}
+                      :modules {:main {:init-fn clojure-mode.app/init}}}}}

@@ -1,14 +1,33 @@
 ; This is the Calva evaluation results output window.
-; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
 ;   when connected to a REPL session.
 ; Please see https://calva.io/output/ for more info.
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.26.0 watch :app
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
 ; Hooking up nREPL sessions...
 ; Connected session: clj
-; TIPS: 
+; TIPS:
 ;   - You can edit the contents here. Use it as a REPL if you like.
 ;   - `alt+enter` evaluates the current top level form.
 ;   - `ctrl+enter` evaluates the current form.
@@ -25,26 +44,317 @@ clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-nil
-cljs꞉test.shadow-reagent.app-test꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
 nil
 ; ------ WARNING - :undeclared-var -----------------------------------------------
-;  Resource: <eval>:1:10
- Use of undeclared Var test.shadow-reagent.app-test/square-root-test
---------------------------------------------------------------------------------
-
-cljs꞉test.shadow-reagent.app-test꞉> 
+;  Resource: <eval>:17:12
+;  Use of undeclared Var clojure-mode.app/editor
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:17:12
+;  Use of undeclared Var clojure-mode.app/editor
+; --------------------------------------------------------------------------------
+; 
+clj꞉clojure-mode.app꞉> 
 nil
-cljs꞉shadow-reagent.app-test꞉> 
-#'shadow-reagent.app-test/square-root-test
-cljs꞉shadow-reagent.app-test꞉> 
-
-Testing shadow-reagent.app-test
-
-
-Ran 1 tests containing 1 assertions.
-
-0 failures, 0 errors.
-
-nil
-cljs꞉shadow-reagent.app-test꞉> 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:2:4
+;  No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:4
+;  Use of undeclared Var r/with-let
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:16
+;  Use of undeclared Var clojure-mode.app/!view
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:2:23
+;  No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:23
+;  Use of undeclared Var r/atom
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:16
+;  Use of undeclared Var clojure-mode.app/last-result
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:3:41
+;  No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:41
+;  Use of undeclared Var r/atom
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:3:49
+;  No such namespace: demo.sci, could not locate demo/sci.cljs, demo/sci.cljc, or JavaScript source providing "demo.sci"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:49
+;  Use of undeclared Var demo.sci/eval-string
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:16
+;  Use of undeclared Var clojure-mode.app/mount!
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:6:35
+;  Use of undeclared Var clojure-mode.app/!view
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:6:46
+;  Use of undeclared Var clojure-mode.app/EditorView
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:6:41
+;  Use of undeclared Var clojure-mode.app/EditorView
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:7:47
+;  No such namespace: j, could not locate j.cljs, j.cljc, or JavaScript source providing "j"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:7:47
+;  Use of undeclared Var j/obj
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:8:54
+;  No such namespace: test-utils, could not locate test_utils.cljs, test_utils.cljc, or JavaScript source providing "test-utils" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:8:54
+;  Use of undeclared Var test-utils/make-state
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:9:67
+;  Use of undeclared Var clojure-mode.app/extensions
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:10:77
+;  No such namespace: demo.sci, could not locate demo/sci.cljs, demo/sci.cljc, or JavaScript source providing "demo.sci"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:10:77
+;  Use of undeclared Var demo.sci/extension
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:11:124
+;  Use of undeclared Var clojure-mode.app/last-result
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:16:18
+;  Use of undeclared Var clojure-mode.app/mount!
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:20:45
+;  Use of undeclared Var clojure-mode.app/last-result
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:23:14
+;  No such namespace: react, could not locate react.cljs, react.cljc, or JavaScript source providing "react"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:23:14
+;  Use of undeclared Var react/isValidElement
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:24:20
+;  No such namespace: sv, could not locate sv.cljs, sv.cljc, or JavaScript source providing "sv"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:24:20
+;  Use of undeclared Var sv/inspect-paginated
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:25:6
+;  Use of undeclared Var clojure-mode.app/finally
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:26:8
+;  No such namespace: j, could not locate j.cljs, j.cljc, or JavaScript source providing "j"
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:26:8
+;  Use of undeclared Var j/call
+; --------------------------------------------------------------------------------
+; 
+; 
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:26:16
+;  Use of undeclared Var clojure-mode.app/!view
+; --------------------------------------------------------------------------------
+; 
+clj꞉clojure-mode.app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "shadow-cljs"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
